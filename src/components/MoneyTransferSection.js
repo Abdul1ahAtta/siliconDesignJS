@@ -4,8 +4,8 @@ import leftReceivePayment from '../IMAGES/LeftRecievePayment.svg';
 import left1 from '../IMAGES/Left1.svg';
 import left2 from '../IMAGES/Left 2.svg';
 
-const MoneyTransferSection = () => (
-  <section className="money-transfer-section">
+const MoneyTransferSection = ({ isAltBg }) => (
+  <section className="{isAltBg ? 'alt-bg-section' : 'default-bg-section'} money-transfer-section">
     <div className="content-container">
       <div className="transfer-info-section">
         <h2>Make your money transfer simple and clear</h2>

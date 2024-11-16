@@ -8,8 +8,8 @@ import support24 from '../IMAGES/Support24.svg';
 import cashback from '../IMAGES/Cashback.svg';
 import topStandards from '../IMAGES/TopStandards.svg';
 
-const FeaturesSection = () => (
-  <section className="features-section">
+const FeaturesSection = ({ isAltBg }) => (
+  <section className="{isAltBg ? 'alt-bg-section' : 'default-bg-section'} features-section">
     <div className="logo-container">
       <img src={multiLogo} alt="Multiple Logo" />
     </div>

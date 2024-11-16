@@ -1,8 +1,8 @@
 import React from 'react';
 import howItWorks from '../IMAGES/HowItWorks.svg';
 
-const HowItWorksSection = () => (
-  <section className="how-it-works-section">
+const HowItWorksSection = ({ isAltBg }) => (
+  <section className="{isAltBg ? 'alt-bg-section' : 'default-bg-section'} how-it-works-section">
     <h2>How Does It Work?</h2>
     <div className="how-it-works-container">
       <div className="how-it-works-img-container">

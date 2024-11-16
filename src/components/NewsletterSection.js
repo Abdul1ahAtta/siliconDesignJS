@@ -1,8 +1,8 @@
 import React from 'react';
 import notificationIcon from '../IMAGES/Noti.svg';
 
-const NewsletterSection = () => (
-  <section className="newsletter-section">
+const NewsletterSection = ({ isAltBg }) => (
+  <section className="{isAltBg ? 'alt-bg-section' : 'default-bg-section'} newsletter-section">
     <div className="content-container">
       <div className="newsletter-content-container">
         <img src={notificationIcon} alt="Bell Icon" />

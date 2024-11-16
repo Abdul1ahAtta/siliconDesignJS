@@ -13,13 +13,13 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <IntroSection />
-      <FeaturesSection />
-      <HowItWorksSection />
-      <MoneyTransferSection />
-      <ClientFeedbackSection />
-      <FAQSection />
-      <NewsletterSection />
+      <IntroSection isAltBg={false} />
+      <FeaturesSection isAltBg={true} />
+      <HowItWorksSection isAltBg={false} />
+      <MoneyTransferSection isAltBg={true} />
+      <ClientFeedbackSection isAltBg={false} />
+      <FAQSection isAltBg={true} />
+      <NewsletterSection isAltBg={false} />
     </div>
   );
 }

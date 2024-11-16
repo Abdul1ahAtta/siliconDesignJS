@@ -4,8 +4,8 @@ import googleplay from '../IMAGES/googleplay.svg';
 import nextBtn from '../IMAGES/next-btn.svg';
 import appScreenshot from '../IMAGES/app.svg';
 
-const IntroSection = () => (
-  <div className="intro-section">
+const IntroSection = ({ isAltBg }) => (
+  <div className="{isAltBg ? 'alt-bg-section' : 'default-bg-section'} intro-section">
     <div className="intro-text-container">
       <h1>Manage All Your Money in One App</h1>
       <p>
