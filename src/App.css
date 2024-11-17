@@ -1,23 +1,3 @@
-/* .App {
-  text-align: center;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-} */
 body {
   margin: 0;
   font-family: "Manrope", sans-serif;
@@ -619,4 +599,225 @@ body {
   border: none;
   border-radius: 6px;
   cursor: pointer;
+}
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* Base dark mode styles applied when .dark-mode is added to the body */
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+/* Header for dark mode */
+body.dark-mode header {
+  background: radial-gradient(
+    116.18% 118% at 50% 100%,
+    rgba(50, 50, 50, 0.9) 0%,
+    rgba(30, 30, 30, 0.9) 41.83%,
+    rgba(10, 10, 10, 0.9) 82.52%
+  );
+  color: #ffffff;
+}
+
+body.dark-mode .nav-menu-list li a {
+  color: #ffffff;
+}
+
+body.dark-mode .auth-button {
+  background-color: #e0e0e0;
+  color: #121212;
+}
+
+body.dark-mode .dark-mode-text {
+  color: #ffffff;
+}
+
+/* Intro Section for dark mode */
+body.dark-mode .intro-section {
+  background-color: #1e1e1e;
+}
+
+body.dark-mode .intro-text-container h1 {
+  color: #ffffff;
+}
+
+body.dark-mode .intro-text-container p {
+  color: #b0b0b0;
+}
+
+/* Features Section */
+body.dark-mode .features-section {
+  background-color: #181818;
+}
+
+body.dark-mode .features-title-section h2 {
+  color: #ffffff;
+}
+
+body.dark-mode .features-title-section p {
+  color: #b0b0b0;
+}
+
+body.dark-mode .single-feature-item h3 {
+  color: #ffffff;
+}
+
+body.dark-mode .single-feature-item p {
+  color: #b0b0b0;
+}
+
+/* Testimonials Section */
+body.dark-mode .client-feedback-section {
+  background-color: #181818;
+}
+
+body.dark-mode .testimonial-box {
+  background-color: #242424;
+  color: #e0e0e0;
+}
+
+body.dark-mode .testimonial-box p {
+  color: #b0b0b0;
+}
+
+/* FAQ Section */
+body.dark-mode .faq-section {
+  background-color: #1f1f1f;
+}
+
+body.dark-mode .faq-item-box {
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+}
+
+body.dark-mode .faq-item-box h4 {
+  color: #ffffff;
+}
+
+body.dark-mode .faq-item-box.expanded p {
+  color: #b0b0b0;
+}
+
+/* Newsletter Section */
+body.dark-mode .newsletter-section {
+  background-color: #242424;
+}
+
+body.dark-mode .newsletter-content-container p {
+  color: #e0e0e0;
+}
+
+body.dark-mode .newsletter form input {
+  background-color: #333333;
+  color: #e0e0e0;
+  border: 1px solid #444444;
+}
+
+body.dark-mode .newsletter button {
+  background-color: #444444;
+  color: #ffffff;
+}
+
+/* Button hover for better visibility */
+body.dark-mode .auth-button:hover,
+body.dark-mode .learn-more-btn:hover {
+  background-color: #ffffff;
+  color: #121212;
+}
+
+
+
+
+body.dark-mode .default-bg-section {
+  background-color: #1e1e1e; /* Default dark mode background */
+  color: #e0e0e0; /* Default text color */
+}
+
+how-it-works-section.dark-mode .default-bg-section {
+  background-color: #1e1e1e; /* Default dark mode background */
+  color: #e0e0e0; /* Default text color */
+}
+.faq-item-box {
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.faq-item-box.expanded {
+  background-color: #f9f9f9;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+
+.faq-toggle-icon {
+  margin-left: 1rem;
+}
+
+.faq-answer {
+  margin-top: 1rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+
+
+
+.client-feedback-section {
+  padding: 2rem;
+  background-color: #f7f7f7;
+}
+
+.testimonials-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.testimonial-box {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1.5rem;
+  width: 300px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.quote-icon {
+  width: 30px;
+  margin-bottom: 1rem;
+}
+
+.rating-container {
+  color: #ffb400;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.client-details {
+  margin-top: 1rem;
+}
+
+.client-name {
+  font-weight: bold;
+}
+
+.client-role {
+  color: gray;
+  font-size: 0.9rem;
+}
+
+.avatar-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
 }
