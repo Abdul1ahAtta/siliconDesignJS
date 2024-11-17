@@ -4,7 +4,7 @@ import logo from '../IMAGES/Silogo.svg';
 const Header = ({ isAltBg }) => {
   const [isDarkMode, setIsDarkMode] = useState(false);
 
-  // Apply/remove the dark mode class on the body
+  
   useEffect(() => {
     if (isDarkMode) {
       document.body.classList.add('dark-mode');

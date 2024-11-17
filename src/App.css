@@ -602,14 +602,13 @@ body {
 }
 
 
-/* -------------------------------------------------------------------------------------------- */
-/* Base dark mode styles applied when .dark-mode is added to the body */
+
 body.dark-mode {
   background-color: #121212;
   color: #e0e0e0;
 }
 
-/* Header for dark mode */
+
 body.dark-mode header {
   background: radial-gradient(
     116.18% 118% at 50% 100%,
@@ -633,7 +632,7 @@ body.dark-mode .dark-mode-text {
   color: #ffffff;
 }
 
-/* Intro Section for dark mode */
+
 body.dark-mode .intro-section {
   background-color: #1e1e1e;
 }
@@ -646,7 +645,7 @@ body.dark-mode .intro-text-container p {
   color: #b0b0b0;
 }
 
-/* Features Section */
+
 body.dark-mode .features-section {
   background-color: #181818;
 }
@@ -667,7 +666,7 @@ body.dark-mode .single-feature-item p {
   color: #b0b0b0;
 }
 
-/* Testimonials Section */
+
 body.dark-mode .client-feedback-section {
   background-color: #181818;
 }
@@ -681,7 +680,7 @@ body.dark-mode .testimonial-box p {
   color: #b0b0b0;
 }
 
-/* FAQ Section */
+
 body.dark-mode .faq-section {
   background-color: #1f1f1f;
 }
@@ -699,7 +698,7 @@ body.dark-mode .faq-item-box.expanded p {
   color: #b0b0b0;
 }
 
-/* Newsletter Section */
+
 body.dark-mode .newsletter-section {
   background-color: #242424;
 }
@@ -719,7 +718,7 @@ body.dark-mode .newsletter button {
   color: #ffffff;
 }
 
-/* Button hover for better visibility */
+
 body.dark-mode .auth-button:hover,
 body.dark-mode .learn-more-btn:hover {
   background-color: #ffffff;
@@ -730,14 +729,13 @@ body.dark-mode .learn-more-btn:hover {
 
 
 body.dark-mode .default-bg-section {
-  background-color: #1e1e1e; /* Default dark mode background */
-  color: #e0e0e0; /* Default text color */
+  background-color: #1e1e1e; 
+  color: #e0e0e0; 
 }
 
 how-it-works-section.dark-mode .default-bg-section {
-  background-color: #1e1e1e; /* Default dark mode background */
-  color: #e0e0e0; /* Default text color */
-}
+  background-color: #1e1e1e; 
+  color: #e0e0e0; 
 .faq-item-box {
   margin-bottom: 1rem;
   border: 1px solid #ddd;
@@ -820,4 +818,5 @@ how-it-works-section.dark-mode .default-bg-section {
   height: 50px;
   border-radius: 50%;
   margin-right: 0.5rem;
+}
 }
